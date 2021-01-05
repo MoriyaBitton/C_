@@ -1,6 +1,6 @@
-all: main_isort main_txtfind
+all: isort txtfind
 
-main_isort: main_isort.o isort.o
+isort: main_isort.o isort.o
 	gcc -o main_isort main_isort.o isort.o -Wall
 
 isort.o: isort.c
@@ -9,7 +9,7 @@ isort.o: isort.c
 main_isort.o: main_isort.c
 	gcc -c main_isort.c -Wall
 
-main_txtfind: main_txtfind.o txtfind.o
+txtfind: main_txtfind.o txtfind.o
 	gcc -o main_txtfind main_txtfind.o txtfind.o -Wall
 
 txtfind.o: txtfind.c
