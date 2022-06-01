@@ -1,5 +1,6 @@
 # C Tasks
 
-#### Ex3 & Ex4
+###### Ariel University, Israel || Semester A - 2020-2021 
 
-### Ariel University, Israel || Semester A 2020-2021
+* Ex3 
+* Ex4
